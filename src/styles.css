@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(36, 34, 34);
+    font-family: 'Oswald', sans-serif;
+
+}
+
+header{
+    color: white;
+    border-radius: 10px;
+    margin: 50px 0px;
+    padding: 0px 10px;
+    background-color: rgb(74, 74, 190);
+
+}
+
+.container{
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.height, .weight{
+    gap: 10px;
+}
+
+.container div{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 115px;
+        height: 30px;
+    background-color: rgb(74, 74, 190);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+}
+
+.buttonContainer {
+    gap: 12px;
+    justify-content: space-evenly;
+    width: 100%;
+    display: flex;
+    flex-direction: row !important;
+}
+
+#outputBox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+
+#height, #weight{
+    width: 100%;
+    height: 30px;
+}

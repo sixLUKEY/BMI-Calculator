@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/BMICalculator/src/styles.css">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <header>
+        <h1>
+        Calculate Your BMI!
+        </h1>
+    </header>
+
+    <div class="container">
+        <div class="height">Please Enter your height in cm <input type="number" name="height" id="height" placeholder="cm"></div>
+        <div class="weight">Please enter your weight in kg <input type="number" name="weight" id="weight" placeholder="kg"></div>
+        <div id="outputBox"></div>
+        <div class="buttonContainer">
+            <button onclick="calculate()">CALCULATE</button>
+            <button onclick="location.reload()">CLEAR</button>
+        </div>
+    </div>
+    <div style="width: 20%; border-top: 2px solid rgb(68, 65, 65); margin: 50px 0px;">
+
+    </div>
+    <footer style="text-align: center; color: white;">
+        Copyright &copy; 2023
+        <br>
+        Designed and Curated by LUKE EVERTSON
+    </footer>
+
+    <script src="src/app.js">
+    </script>
+</body>
+</html>
